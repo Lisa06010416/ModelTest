@@ -1,15 +1,6 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
-
+\\(R\_i=\frac{P\_{i\_{0}}-P\_{i\_{m}}}{\sum\_{i=0}^{n}(P\_{i\_{0}}-P\_{i\_{m}})}\\)
 
 # ERNIE 介紹 與 情感分析應用
 
