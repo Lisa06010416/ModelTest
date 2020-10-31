@@ -1,3 +1,16 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+
+
 # ERNIE 介紹 與 情感分析應用
 
 > 以往的language model如Bert，透過大量的文本訓練，來學習每個token的語意資訊，但如果可以在學習的過程中把人類的Knowledge一起考慮進去呢？
