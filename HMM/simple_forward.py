@@ -57,7 +57,6 @@ class MarkovModel():
         self.path.append(self.state_now)
 
 
-
 class HiddenMarkovModel(MarkovModel):
     def __init__(self,
                  S,
@@ -96,7 +95,7 @@ class HiddenMarkovModel(MarkovModel):
 S = ['a', 'b', 'c']
 transition_matrix = np.array([[0,0.5,0.5],[0.5,0,0.5],[0.5,0.5,0]])
 
-MM = MarkovModel(S = S, transition_matrix=transition_matrix)
+MM = MarkovModel(S=S, transition_matrix=transition_matrix)
 MM.random_walk_n_times(3)
 print("MM :")
 print(MM.path)
@@ -104,7 +103,7 @@ print(MM.path)
 # HMM
 V = ['1','2','3']
 observe_probability = np.array([[0,0.5,0.5],[0.5,0,0.5],[0.5,0.5,0]])
-HMM = HiddenMarkovModel(S=S,V=V,transition_matrix=transition_matrix,observe_probability=observe_probability)
+HMM = HiddenMarkovModel(S=S, V=V, transition_matrix=transition_matrix, observe_probability=observe_probability)
 HMM.random_walk_n_times(3)
 print("HMM :")
 print(HMM.path)
