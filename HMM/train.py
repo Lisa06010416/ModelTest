@@ -111,14 +111,14 @@ if __name__ =="__main__":
     # init trainer
     trainer = HMM_Trainer(test_hmm)
     # train
-    for i in range(50):
+    for i in range(100):
         S_path, O_path = target_hmm.random_walk_n_times(100)
         trainer.train(O_path)
 
     print("---------- After train -------------")
     print("Pi :")
     print(test_hmm.Pi)
-    print("Translate matric :")
+    print("Translate metric :")
     print(test_hmm.A)
-    print("Observe matric :")
+    print("Observe metric :")
     print(test_hmm.B)

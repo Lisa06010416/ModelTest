@@ -39,7 +39,7 @@
 # s2  b' = in2*b   e' = e(a'*x2 + b'*y2 + c'*z2)   h' = h(d'*x2 + e'*y2 + f'*z2)
 # s3  c' = in3*c   f' = f('a*x3 + b'*y3 + c'*z3)   i' = i(d'*x3 + e'*y3 + f'*z3)
 
-# ----------- dynamic programming backward alpha: -----------
+# ----------- dynamic programming fbackward alpha: -----------
 # a[(dg+eg+fg)+(dh+eh+fh)+(di+ei+fi)] + b[(dg+eg+fg)+(dh+eh+fh)+(di+ei+fi)] + c[(dg+eg+fg)+(dh+eh+fh)+(di+ei+fi)]
 # a[d(g+h+i)+e(g+h+i)+f(g+h+i)] + b[d(g+h+i)+e(g+h+i)+f(g+h+i)] + c[d(g+h+i)+e(g+h+i)+f(g+h+i)]
 
