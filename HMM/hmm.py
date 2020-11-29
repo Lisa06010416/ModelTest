@@ -135,4 +135,3 @@ if __name__=="__main__":
     S_path, O_path = hmm.random_walk_n_times(5)
     print("S_path : {}".format(S_path))
     print("O_path : {}".format(O_path))
-
