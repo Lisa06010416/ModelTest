@@ -35,3 +35,14 @@ s6 = "哪个系列包含尼康coolpix l15"
 t6 = tokenizer(s6)
 for t in t6["input_ids"]:
     print(tokenizer.decode(t))
+
+print("paddinf test")
+s7 = [
+    "哪个系列包含尼康coolpix l15",
+    "哪个系列包含尼康coolpix l15"
+]
+t7 = tokenizer(s7, truncation=True, padding='max_length')
+print(t7['input_ids'])
+print(t7['token_type_ids'])
+print(t7['attention_mask'])
+print(t7)
