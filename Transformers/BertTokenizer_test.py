@@ -22,7 +22,7 @@ for t in t3["input_ids"]:
     print(tokenizer.decode(t))
 
 s4 = "是第2卷光盘或dvd"
-t4 = tokenizer(s4)
+t4 = tokenizer(s4)  
 for t in t4["input_ids"]:
     print(tokenizer.decode(t))
 
